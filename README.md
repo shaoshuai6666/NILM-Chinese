@@ -29,7 +29,7 @@ conda config --add channels conda-forge
 
 **5.在国内直接进行下一步安装通常会报错，这个时候执行这一条，就能完美解决国内安装不了NILMTK的问题:boom:**
 
-conda config --set channel_priority strict
+conda config --set channel_priority strict转载请标明出处
 
 6.安装最新版NILMTK
 
