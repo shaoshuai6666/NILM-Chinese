@@ -39,7 +39,8 @@ conda install -c nilmtk nilmtk
 ## [NILMTK-Contrib](https://github.com/nilmtk/nilmtk-contrib)
 基于NILMTK，提供了一些经常使用的算法。
 这里Contrib的意思是这些算法是NILMTK团队之外的学者提出的
-
+安装教程：
+conda create -n nilm -c conda-forge -c nilmtk nilmtk-contrib
 ## nilmtk-dl
 一个中国学生写的本科毕业设计，主要是根据的NILMTK-Contrib中的改了一些，从2020年后不更新了
 
