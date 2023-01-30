@@ -6,7 +6,7 @@
 如果你同样对NILM感兴趣，欢迎加我QQ 1400237799，互相学习互相进步。
 
 **如果你觉得这个仓库对你有一点点帮助，请给个小星星:star:**
-## NILMTK 著名的NILM工具包
+## [NILMTK](https://github.com/nilmtk/nilmtk) 著名的NILM工具包
 国内最简单安装教程：
 
 1.直接安装Anaconda
@@ -36,13 +36,13 @@ conda config --set channel_priority strict转载请标明出处
 conda install -c nilmtk nilmtk
 
 
-## NILMTK-Contrib
+## [NILMTK-Contrib](https://github.com/nilmtk/nilmtk-contrib)
 基于NILMTK，提供了一些经常使用的算法。
 这里Contrib的意思是这些算法是NILMTK团队之外的学者提出的
 
 ## nilmtk-dl
 一个中国学生写的本科毕业设计，主要是根据的NILMTK-Contrib中的改了一些，从2020年后不更新了
 
-## NILM-TTRNet
+## [NILM-TTRNet](https://github.com/shaoshuai6666/NILM-TTRNet)
 我自己写的一个用于NILM的名为TTRNet的深度学习网络，基于Transfomer等多个网络改进的，用的PyTorch框架，个人认为是非常不错的:joy:
 
