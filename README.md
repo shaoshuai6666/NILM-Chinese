@@ -9,17 +9,11 @@
 ## [NILMTK](https://github.com/nilmtk/nilmtk) 著名的NILM工具包
 国内最简单安装教程：
 
-1.直接安装Anaconda
+1.直接安装Mamba
 
-Anaconda直接带Python和Jupyter 不需要分别下了
+国内Mamba比conda快 https://mamba.readthedocs.io/en/latest/installation.html
 
-国内从清华镜像下快https://mirror.tuna.tsinghua.edu.cn/help/anaconda/
-
-2.通过conda安装mamba
-
-conda install -c conda-forge mamba
-
-3.再用mamba安装nilmtk
+2.用Mamba安装nilmtk
 
 mamba create -n nilmtk-env -c conda-forge -c nilmtk nilmtk
 
@@ -30,11 +24,11 @@ mamba create -n nilmtk-env -c conda-forge -c nilmtk nilmtk
 
 国内最简单安装教程：
 
-前期步骤与上述nilmtk安装教程同理
+先安装Mamba
 
 mamba create -n nilm -c conda-forge -c nilmtk nilmtk-contrib
 
-这种方法可以直接连nilmtk也一起安装，但好像numpy版本有问题，需要手动降低到numpy==1.17.5，另外安装tensorflow==2.0.0 keras==2.3.1
+*直接安装nilmtk-contrib可以连nilmtk也一起安装，但好像numpy版本有问题，需要手动降低到numpy==1.17.5，另外安装tensorflow==2.0.0 keras==2.3.1
 
 有时间我联系一下nilmtk组织让他们改一下
 ## nilmtk-dl
