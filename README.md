@@ -15,25 +15,13 @@ Anaconda直接带Python和Jupyter 不需要分别下了
 
 国内从清华镜像下快https://mirror.tuna.tsinghua.edu.cn/help/anaconda/
 
-2.创建名为nilmtk-env的环境
+2.通过conda安装mamba
 
-conda create --name nilmtk-env 
+conda install -c conda-forge mamba
 
-3.激活新的nilmtk-env环境
+3.再用mamba安装nilmtk
 
-conda activate nilmtk-env
- 
-4.将 conda-forge 添加到要搜索包的频道列表
-
-conda config --add channels conda-forge
-
-**5.在国内直接进行下一步安装通常会报错，这个时候执行这一条，就能完美解决国内安装不了NILMTK的问题:boom:**
-
-conda config --set channel_priority strict转载请标明出处
-
-6.安装最新版NILMTK
-
-conda install -c nilmtk nilmtk
+mamba create -n nilmtk-env -c conda-forge -c nilmtk nilmtk
 
 
 ## [NILMTK-Contrib](https://github.com/nilmtk/nilmtk-contrib)
@@ -42,20 +30,13 @@ conda install -c nilmtk nilmtk
 
 国内最简单安装教程：
 
-conda create -n nilm -c conda-forge -c nilmtk nilmtk-contrib
-
-这种方法可以直接连nilmtk也一起安装但好像numpy版本有问题需要手动降低到numpy==1.17.5 另外安装tensorflow==2.0.0 keras==2.3.1
-
-如果安装不了，就先安装mamba
-
-conda install -c conda-forge mamba
-
-再安装nilmtk-contrib
+前期步骤与上述nilmtk安装教程同理
 
 mamba create -n nilm -c conda-forge -c nilmtk nilmtk-contrib
 
-这种
+这种方法可以直接连nilmtk也一起安装，但好像numpy版本有问题，需要手动降低到numpy==1.17.5，另外安装tensorflow==2.0.0 keras==2.3.1
 
+有时间我联系一下nilmtk组织让他们改一下
 ## nilmtk-dl
 一个中国学生写的本科毕业设计，主要是根据的NILMTK-Contrib中的改了一些，从2020年后不更新了
 
