@@ -36,7 +36,7 @@ mamba install tensorflow-gpu
 
 ValueError: Layer sequential_4 expects 1 inputs, but it received 2 input tensors. Inputs received: [<tf.Tensor 'IteratorGetNext:0' shape=(None, 99, 1) dtype=float32>, <tf.Tensor 'IteratorGetNext:1' shape=(None, 99, 1) dtype=float32>]
 
-把WindowGRU.py,RNN.py,DAE.py文件中的validation_data = (v_x,v_y)改为validation_data = [v_x,v_y]即可，好像2.0.0版本没有这个问题
+把WindowGRU.py,RNN.py,DAE.py文件中的validation_data = [v_x,v_y]改为validation_data = (v_x,v_y)即可，好像2.0.0版本没有这个问题
 
 有时间我联系一下nilmtk组织让他们改一下
 ## nilmtk-dl
