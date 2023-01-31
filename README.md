@@ -28,7 +28,15 @@ mamba create -n nilmtk-env -c conda-forge -c nilmtk nilmtk
 
 mamba create -n nilm -c conda-forge -c nilmtk nilmtk-contrib
 
-*直接安装nilmtk-contrib可以连nilmtk也一起安装，但好像numpy版本有问题，需要手动降低到numpy==1.17.5，另外安装tensorflow==2.0.0 keras==2.3.1
+*直接安装nilmtk-contrib会带着nilmtk也一起安装，还有keras，但需要自己手动安装tensorflow 
+
+mamba install tensorflow-gpu
+
+*默认装的是2.3.0，可能会有如下报错:
+
+ValueError: Layer sequential_4 expects 1 inputs, but it received 2 input tensors. Inputs received: [<tf.Tensor 'IteratorGetNext:0' shape=(None, 99, 1) dtype=float32>, <tf.Tensor 'IteratorGetNext:1' shape=(None, 99, 1) dtype=float32>]
+
+把WindowGRU.py,RNN.py,DAE.py文件中的validation_data = (v_x,v_y)改为validation_data = [v_x,v_y]即可，好像2.0.0版本没有这个问题
 
 有时间我联系一下nilmtk组织让他们改一下
 ## nilmtk-dl
