@@ -39,8 +39,23 @@ conda install -c nilmtk nilmtk
 ## [NILMTK-Contrib](https://github.com/nilmtk/nilmtk-contrib)
 基于NILMTK，提供了一些经常使用的算法。
 这里Contrib的意思是这些算法是NILMTK团队之外的学者提出的
-安装教程：
+
+国内最简单安装教程：
+
 conda create -n nilm -c conda-forge -c nilmtk nilmtk-contrib
+
+这种方法可以直接连nilmtk也一起安装但好像numpy版本有问题需要手动降低到numpy==1.17.5 另外安装tensorflow==2.0.0 keras==2.3.1
+
+如果安装不了，就先安装mamba
+
+conda install -c conda-forge mamba
+
+再安装nilmtk-contrib
+
+mamba create -n nilm -c conda-forge -c nilmtk nilmtk-contrib
+
+这种
+
 ## nilmtk-dl
 一个中国学生写的本科毕业设计，主要是根据的NILMTK-Contrib中的改了一些，从2020年后不更新了
 
