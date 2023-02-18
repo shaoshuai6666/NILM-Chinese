@@ -54,7 +54,25 @@ ValueError: Layer sequential_4 expects 1 inputs, but it received 2 input tensors
 
 有时间我联系一下nilmtk组织让他们改一下
 ```
+#### 如果你仅使用NILMTK推荐用Mamba安装,如果是研究生需要修改代码按下面的教程安装
 
+* NILMTK好几年前就不更新了,我的仓库对NILMTK进行了更新,适配最新的pytorch和tensorflow,修改了一些bug,增添了新功能.
+
+```
+git clone https://github.com/shaoshuai6666/nilmtk.git 
+git clone https://github.com/nilmtk/nilm_metadata/
+cd nilm_metadata
+python setup.py develop
+cd ..
+cd nilmtk
+python setup.py develop
+nosetests
+cd ..
+git clone https://github.com/shaoshuai6666/nilmtk-contrib.git
+cd nilmtk-contrib
+python setup.py develop
+cd ..
+```
 ## 我个人认为不错的工作，适合新手学习
 ### nilmtk-dl
 一个中国学生写的本科毕业设计，主要是根据的NILMTK-Contrib中的改了一些，从2020年后不更新了
