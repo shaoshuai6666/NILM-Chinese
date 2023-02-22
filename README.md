@@ -66,12 +66,19 @@ python setup.py develop
 cd ..
 cd nilmtk
 python setup.py develop
-nosetests
 cd ..
 git clone https://github.com/shaoshuai6666/nilmtk-contrib.git
 cd nilmtk-contrib
 python setup.py develop
 cd ..
+```
+或者直接下载install.sh，并将其设置为可执行文件：
+```
+chmod +x install.sh
+```
+然后，您可以运行该脚本来执行这些命令：
+```
+./install.sh
 ```
 ## 我个人认为不错的工作，适合新手学习
 ### nilmtk-dl
