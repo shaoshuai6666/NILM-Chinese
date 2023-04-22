@@ -6,8 +6,9 @@
 如果你同样对NILM感兴趣，欢迎加我QQ 1400237799，互相学习互相进步。
 
 **如果你觉得这个仓库对你有一点点帮助，请给个小星星:star:**
-
-
+## 投稿推荐
+Sensors（SCI三区）特刊“具有有意义的性能评估的实用非侵入式负载监控方法” **稿件提交截止日期：2023 年 6 月 30 日**
+https://www.mdpi.com/journal/sensors/special_issues/practical_nonintrusive_load_monitoring_approaches_with_meaningful_performance_evaluation
 ## 一些汇总仓库（英文）：
 ### awesome NILM 
 一个包含优秀的NILM文章的仓库，但只有文章链接https://github.com/ch-shin/awesome-nilm 个人认为不公开源代码的不算优秀，是骡子是马拉出来遛遛
