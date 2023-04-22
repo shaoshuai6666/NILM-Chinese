@@ -15,6 +15,15 @@
 一个包含优秀的公开代码的NILM文章的仓库https://github.com/zhgqcn/awesome-NILM-with-code
 ### ~~nilm-papers-with-code~~
 https://github.com/klemenjak/nilm-papers-with-code 功能同上，但是2021年后就不更新了，内容也少，还是看上面那个仓库
+## 选择编程语言
+```mermaid
+graph TB
+    语言 --> |事件检测和特征提取| matlab
+    语言 --> |端到端深度神经网络| python
+```
+
+关于做NILM方向选择编程语言主要有两个，一个是用matlab，一个是用python。如果你主要想在事件检测和特征提取方面做文章，也就是搞机器学习，最好选择matlab，因为这部分可以借鉴的代码多。如果你想做端到端的方法，一般在神经网络方面做文章，也就是搞深度学习，最好选择python，因为这部分开源的代码都是用python写的。
+
 ## NILM工具或框架
 ### [NILMTK](https://github.com/nilmtk/nilmtk) 著名的NILM工具包
 国内最简单安装教程：
