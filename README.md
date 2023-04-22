@@ -13,7 +13,8 @@
 一个包含优秀的NILM文章的仓库，但只有文章链接https://github.com/ch-shin/awesome-nilm 个人认为不公开源代码的不算优秀，是骡子是马拉出来遛遛
 ### awesome NILM with code
 一个包含优秀的公开代码的NILM文章的仓库https://github.com/zhgqcn/awesome-NILM-with-code
-
+### ~~nilm-papers-with-code~~
+https://github.com/klemenjak/nilm-papers-with-code 功能同上，但是2021年后就不更新了，内容也少，还是看上面那个仓库
 ## NILM工具或框架
 ### [NILMTK](https://github.com/nilmtk/nilmtk) 著名的NILM工具包
 国内最简单安装教程：
