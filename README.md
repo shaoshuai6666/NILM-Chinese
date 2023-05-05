@@ -16,6 +16,7 @@ https://www.mdpi.com/journal/sensors/special_issues/practical_nonintrusive_load_
 一个包含优秀的公开代码的NILM文章的仓库https://github.com/zhgqcn/awesome-NILM-with-code
 ### ~~nilm-papers-with-code~~
 https://github.com/klemenjak/nilm-papers-with-code 功能同上，但是2021年后就不更新了，内容也少，还是看上面那个仓库
+
 ## 选择编程语言
 ```mermaid
 graph TB
@@ -47,3 +48,10 @@ graph TB
 ### [NILM-TTRNet](https://github.com/shaoshuai6666/NILM-TTRNet)
 我自己写的一个用于NILM的名为TTRNet的深度学习网络，基于Transfomer等多个网络改进的，用的PyTorch框架，个人认为是非常不错的:joy:
 
+## BOOKS
+NILM相关书籍，
+|  Non-intrusive Load Monitoring: Theory, Technologies and Applications   | Machine Learning Approaches to Non-Intrusive Load Monitoring  |
+|  :----:  | :----:  |
+| ![封面](https://media.springernature.com/w92/springer-static/cover/book/978-981-15-1860-7.jpg?as=webp)  | ![封面](https://media.springernature.com/w92/springer-static/cover/book/978-3-030-30782-0.jpg?as=webp) |
+| [Z-Library](https://1lib.tk/book/5403114/63d09c?dsource=recommend)  | [Z-Library](https://1lib.tk/book/5400202/1835fe?dsource=recommend) |
+| [PDF](https://1lib.tk/dl/5403114/1d1043?openInBrowser)  | [PDF](https://1lib.tk/dl/5400202/6093fa?dsource=recommend&openInBrowser) |
