@@ -49,9 +49,18 @@ graph TB
 我自己写的一个用于NILM的名为TTRNet的深度学习网络，基于Transfomer等多个网络改进的，用的PyTorch框架，个人认为是非常不错的:joy:
 
 ## BOOKS
-NILM相关书籍，
-|  Non-intrusive Load Monitoring: Theory, Technologies and Applications   | Machine Learning Approaches to Non-Intrusive Load Monitoring  |
-|  :----:  | :----:  |
 | ![封面](https://media.springernature.com/w92/springer-static/cover/book/978-981-15-1860-7.jpg?as=webp)  | ![封面](https://media.springernature.com/w92/springer-static/cover/book/978-3-030-30782-0.jpg?as=webp) |
+|  :----:  | :----:  |
+|  Non-intrusive Load Monitoring: Theory, Technologies and Applications   | Machine Learning Approaches to Non-Intrusive Load Monitoring  |
 | [Z-Library](https://1lib.tk/book/5403114/63d09c?dsource=recommend)  | [Z-Library](https://1lib.tk/book/5400202/1835fe?dsource=recommend) |
 | [PDF](https://1lib.tk/dl/5403114/1d1043?openInBrowser)  | [PDF](https://1lib.tk/dl/5400202/6093fa?dsource=recommend&openInBrowser) |
+## 报告
+细粒度用电监测关键技术及产品应用 [[PPT](https://mp.weixin.qq.com/s?search_click_id=7113332954490290343-1683300831297-6452539475&__biz=MzAxMzgyMjMwMQ==&mid=2651856224&idx=1&sn=850bb7d55f5329c49617a31f77aa993e&chksm=80780d52b70f84445ce7d708fe313dd0f303ceb9f1d8e0408897d4b18d0a97e5761b2383268c&key=6bc3e6c73c1657b41239b5ce5fcbc00e07c23f4ddc1fe6b431980662f35bfdccd6a553e49457e1c92272c57848aece3d9d067f09fadda0732ded99830ebf8b2b2bc62092f4dd4427f7033af8f960dcaf2053a466337f92467d1455c4c3bfe4b54e0d423188a6b57b921bc9c93b8fe63a03647dc3fad8754643ae9920b4f5f77d&ascene=65&uin=NDgxODgxMjM3&devicetype=Windows+10+x64&version=63080029&lang=zh_CN&exportkey=n_ChQIAhIQ9tJ7joXBw%2FygkCM7IYLT%2BBLgAQIE97dBBAEAAAAAADmnKA9t8NwAAAAOpnltbLcz9gKNyK89dVj092KCSBjV%2Bgb4jKZJDKKZmtEpGaBnYDI%2B8eUubiJGcIwMrdMfR7o4%2B4HKXT%2BzR%2BQ8sdNFyDC4hznhsqA%2BbRmL0WZWs3IVctiHtkTfGaNafGKFSQfAsobgnJ8QLx394U8V9O5oEDD%2FME3aQaKGQEWG0XKLAxEJVCmv8s42VbPkq2YcxECPt07ywD4gSOJN5G04mrFXfivIiGFEudr3EZJds%2BYrmeZn2e3%2BfChEwtAR380R%2BD7Qe8Yviw4W&acctmode=0&pass_ticket=KWK9ZsTZFoXIJgGdxjGcM1ql5dPVeqsJEiEi07UnbdA0Y%2B5IvhmpDteNGtBcuFz84uA%2BbUC4E920dNu8PTSvDA%3D%3D&wx_header=1&fontgear=2)] 
+该报告重点讲了NILM技术的应用 
+**栾文鹏教授是国内NILM领域的大牛**
+
+<img decoding="async" src="https://mmbiz.qpic.cn/mmbiz_png/9bwhXZWoFDjy99feAZ2R7SqLJqHrAmm551SWQfczZq8kmYDfCbesAnCXoH33CGYeGJV0AiclAxSYgZiaMYb2Aricw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1" width="50%">
+
+
+
+
