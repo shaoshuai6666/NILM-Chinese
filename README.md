@@ -4,6 +4,7 @@
 这三十天我会陆续更新，直到完成我的毕业论文
 
 如果你同样对NILM感兴趣，欢迎加我QQ 1400237799，互相学习互相进步。但是，加我的人太多了，我已经毕业工作了，所以可能没有太多时间回复。所以欢迎大家有问题直接提issue，这样无论谁看到了都可以回答。
+**(如果是院所或企业，欢迎商业合作！已有多个国内外合作经验:smile:)**
 
 最欢迎的是，大家可以把自己的学习笔记提交PR到这个仓库，让后来的人更容易参与到NILM这个领域。
 
@@ -66,3 +67,7 @@ graph TB
 |  :----:  | :----:  |
 | [Non-intrusive Load Monitoring: Theory, Technologies and Applications](https://zh.annas-archive.org/md5/43232756e1d5115cf1ba0c5e5c18a59e)  | [Machine Learning Approaches to Non-Intrusive Load Monitoring](https://zh.annas-archive.org/md5/d2cdcbd2820541bb17844430ab305871) |
 
+## 引用
+如果您在学术工作中使用参考了本教程，请考虑引用我的论文：
+
+[1]邵帅. 不同场景下工商业非侵入式负荷监测技术研究[D].安徽理工大学,2023.
