@@ -67,11 +67,15 @@ graph TB
 次年，文献《[非侵入式负荷监测算法的测试与评价方法](https://kns.cnki.net/kcms2/article/abstract?v=-93ivAxQXRqYiZzkF98N-aP5q-AL_2UZoCN0dLBNGhqJY-nG-C-Uq3pgD1TagGEXgS-z2Rbdr7SXNwXGcDW2WcfG3sY24zgPzmMRSO_eQz9_uxKpm_ekEwMc0yIbMXK9VirJuPSlSIrtf3w4Cfu6TA==&uniplatform=NZKPT&language=CHS)》又对 NILM 行业标准化现状进行了总结。 **栾文鹏教授写的**
 
 ## 成熟的产品
-1.[Sense Energy Monitor](https://sense.com/)
+1.SPEED™ System Software
 
-<img src="https://m.media-amazon.com/images/I/51KxQI+bsPL._AC_SL1500_.jpg" width = "30%" />
+Enetics 于 1996 年将世界上第一个基于公用事业的住宅 NIALM 产品（非侵入式设备负载监控）推向市场，如今Enetics是该技术领域公认的领导者。自 1993 年以来，Enetics的工程人员一直致力于非侵入式最终用途监测的研究、开发和商业化活动。Enetics的 NILM 产品系列名为 SPEED™（Single Point End-use Energy Disaggregation），采用专利分解算法技术。自 1996 年首次发布以来，该技术已在世界各地广泛部署和测试。 
 
-## BOOKS
+2.[Sense Energy Monitor](https://sense.com/)
+
+<img src="https://m.media-amazon.com/images/I/51KxQI+bsPL._AC_SL1500_.jpg" width = "20%" />
+
+## 教材
 | ![封面](https://media.springernature.com/w92/springer-static/cover/book/978-981-15-1860-7.jpg?as=webp)  | ![封面](https://media.springernature.com/w92/springer-static/cover/book/978-3-030-30782-0.jpg?as=webp) |
 |  :----:  | :----:  |
 | [Non-intrusive Load Monitoring: Theory, Technologies and Applications](https://zh.annas-archive.org/md5/43232756e1d5115cf1ba0c5e5c18a59e)  | [Machine Learning Approaches to Non-Intrusive Load Monitoring](https://zh.annas-archive.org/md5/d2cdcbd2820541bb17844430ab305871) |
