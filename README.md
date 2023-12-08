@@ -83,4 +83,4 @@ Enetics 于 1996 年将世界上第一个基于公用事业的住宅 NIALM 产�
 ## 引用
 如果您在学术工作中使用参考了本教程，请考虑引用我的论文：
 
-[1]邵帅. 不同场景下工商业非侵入式负荷监测技术研究[D].安徽理工大学,2023.
+[1]邵帅. [不同场景下工商业非侵入式负荷监测技术研究](https://kns.cnki.net/kcms2/article/abstract?v=UQzSFoOd3SfL8m79HVwj8wkxeaMEE2X2gp4KEW3ydFswhEhEtGlfaJUo9N5phyk72TZchoPUf8s2f2CGCdjuk8bxXkeXpE2Uaao4ESnHQNtF8sB92TmU8t5Fq--0rB5Pxu726dZ3oCLzy1P9zXEgnQ==&uniplatform=NZKPT&language=CHS)[D].安徽理工大学,2023.DOI:10.26918/d.cnki.ghngc.2023.000620.
